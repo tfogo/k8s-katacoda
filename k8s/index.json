@@ -12,6 +12,14 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "host01": [
+      {
+        "file": "kubectl-setup.sh",
+        "target": "/root"
+      }
+    ]
+  },
   "environment": {
     "uilayout": "terminal-terminal"
   },
