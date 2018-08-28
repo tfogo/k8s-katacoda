@@ -5,7 +5,8 @@
     "steps": [
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "kubectl-setup.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -15,6 +16,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes-cluster-running"
   }
 }
