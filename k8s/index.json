@@ -14,17 +14,17 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "node01": [
+        {
+          "file": "kubectl-setup.sh",
+          "target": "~/"
+        }
+      ]
     }
   },
-  "assets": {
-    "node01": [
-      {
-        "file": "kubectl-setup.sh",
-        "target": "~/"
-      }
-    ]
-  },
-  "environment": {
+ "environment": {
     "uilayout": "terminal-terminal"
   },
   "backend": {
