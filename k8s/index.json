@@ -17,7 +17,7 @@
     }
   },
   "assets": {
-    "host01": [
+    "node01": [
       {
         "file": "kubectl-setup.sh",
         "target": "~/"
