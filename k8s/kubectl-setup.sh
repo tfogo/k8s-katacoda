@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "HELLO"
-
-mkdir $HOME/hello
-
 if [ $(hostname) == "node01" ]
 then
   mkdir $HOME/.kube
