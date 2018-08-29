@@ -16,9 +16,15 @@
       "text": "finish.md"
     },
     "assets": {
+      "master": [
+        {
+          "file": "pod.yml",
+          "target": "~/"
+        }
+      ],
       "node01": [
         {
-          "file": "kubectl-setup.sh",
+          "file": "pod.yml",
           "target": "~/"
         }
       ]
