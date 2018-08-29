@@ -30,7 +30,9 @@
       ]
     }
   },
- "environment": {
+  "environment": {
+    "hideintro": true,
+    "icon": "fa-kubernetes",
     "uilayout": "terminal-terminal"
   },
   "backend": {
