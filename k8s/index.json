@@ -1,10 +1,10 @@
 {
-  "title": "Kubernetes Playground 2",
+  "title": "Kubernetes Playground",
   "description": "Kubernetes Playground for Smooth DevOps",
   "details": {
     "steps": [
       {
-        "title": "step 1",
+        "title": "Introducing kubectl",
         "text": "step1.md"
       }
     ],
