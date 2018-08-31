@@ -20,11 +20,27 @@
         {
           "file": "pod.yml",
           "target": "~/"
+        },
+        {
+          "file": "pod-with-labels.yml",
+          "target": "~/"
+        },
+        {
+          "file": "pod-with-resources.yml",
+          "target": "~/"
         }
       ],
       "node01": [
         {
           "file": "pod.yml",
+          "target": "~/"
+        },
+        {
+          "file": "pod-with-labels.yml",
+          "target": "~/"
+        },
+        {
+          "file": "pod-with-resources.yml",
           "target": "~/"
         }
       ]
