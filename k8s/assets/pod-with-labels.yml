@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: devops
+  name: devops-with-labels
   labels:
     env: prod
     owner: auth-team

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: devops
+  name: devops-with-resources
 spec:
   containers:
     - image: tfogo/devops
