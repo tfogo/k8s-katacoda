@@ -4,7 +4,7 @@ metadata:
   name: devops-with-labels
   labels:
     env: prod
-    owner: auth-team
+    app: devops-app
   annotations:
     git-info: "commit 93c34fb33f2398cf3308bf42ad7ef0df33dc86d8 Author: Tim Fogarty <tim@tfogo.com> Date: Tue Aug 28 17:42:14 2018 -0700"
 spec:
