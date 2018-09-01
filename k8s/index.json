@@ -28,7 +28,11 @@
         {
           "file": "pod-with-resources.yml",
           "target": "~/"
-        }
+        },
+				{
+					"file": "service.yml",
+					"target": "~/"
+				}
       ],
       "node01": [
         {
@@ -42,7 +46,11 @@
         {
           "file": "pod-with-resources.yml",
           "target": "~/"
-        }
+        },
+				{
+					"file": "service.yml",
+					"target": "~/"
+				}
       ]
     }
   },
