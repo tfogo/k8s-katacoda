@@ -32,6 +32,14 @@
 				{
 					"file": "service.yml",
 					"target": "~/"
+				},
+        {
+					"file": "service-node-port.yml",
+					"target": "~/"
+				},
+        {
+					"file": "deployment.yml",
+					"target": "~/"
 				}
       ],
       "node01": [
@@ -49,6 +57,14 @@
         },
 				{
 					"file": "service.yml",
+					"target": "~/"
+				},
+        {
+					"file": "service-node-port.yml",
+					"target": "~/"
+				},
+        {
+					"file": "deployment.yml",
 					"target": "~/"
 				}
       ]
