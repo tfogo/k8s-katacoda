@@ -10,11 +10,11 @@ spec:
     matchLabels:
       app: devops-app
   template:
-    annotations:
-      kubernetes.io/change-cause: "Update image to v2"
     metadata:
       labels:
         app: devops-app
+      annotations:
+        kubernetes.io/change-cause: "Update image to v2"
     spec:
       containers:
       - name: devops
