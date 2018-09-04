@@ -19,5 +19,5 @@ spec:
         image: tfogo/devops
         ports:
         - containerPort: 80
-					name: http
-					protocol: TCP
+          name: http
+          protocol: TCP
