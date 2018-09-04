@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-deployment
+  labels:
+    app: devops-app
+  annotations:
+    kubernetes.io/change-cause: "Update image to v2"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devops-app
+  template:
+    metadata:
+      labels:
+        app: devops-app
+    spec:
+      containers:
+      - name: devops
+        image: tfogo/devops:v2
+        ports:
+        - containerPort: 80
+          name: http
+          protocol: TCP

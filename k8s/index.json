@@ -40,6 +40,10 @@
         {
 					"file": "deployment.yml",
 					"target": "~/"
+				},
+        {
+					"file": "deployment-v2.yml",
+					"target": "~/"
 				}
       ],
       "node01": [
@@ -65,6 +69,10 @@
 				},
         {
 					"file": "deployment.yml",
+					"target": "~/"
+				},
+        {
+					"file": "deployment-v2.yml",
 					"target": "~/"
 				}
       ]
