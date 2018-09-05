@@ -6,7 +6,19 @@
       {
         "title": "Introducing kubectl",
         "text": "step1.md"
-      }
+      },
+			{
+				"title": "Deploying pods",
+				"text": "step2.md"
+			},
+			{
+				"title": "Services",
+				"text": "step3.md"
+			},
+			{
+				"title": "Deployments",
+				"text": "step4.md"
+			}
     ],
     "intro": {
       "text": "intro.md",
