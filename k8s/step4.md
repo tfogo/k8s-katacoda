@@ -1,18 +1,16 @@
-`watch kubectl get pods`
+`watch kubectl get pods`{{execute}}
 
-`watch kubectl get replicasets -o wide`
+`watch kubectl get replicasets -o wide`{{execute}}
 
-`kubectl apply -f deployment.yml`
+`kubectl apply -f deployment.yml`{{execute}}
 
-`kubectl scale deployment devops --replicas=2`
+scale
 
-`kubectl scale deployment devops --replicas=5`
+`kubectl apply -f deployment-v2.yml`{{execute}}
 
-`kubectl apply -f deployment-v2.yml`
+`kubectl rollout status deployment devops`{{execute}}
 
-`kubectl rollout status deployment devops`
+`kubectl rollout history deployment devops`{{execute}}
 
-`kubectl rollout history deployment devops`
-
-`kubectl rollout undo deployment devops --to-revision=1`
+`kubectl rollout undo deployment devops --to-revision=1`{{execute}}
 
