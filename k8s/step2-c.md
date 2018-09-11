@@ -22,4 +22,4 @@ And you can view this new pod (with its labels) by running:
 
 And delete the pod by running:
 
-`kubectl delete pod pod-with-labels`{{execute}}
+`kubectl delete pod devops-with-labels`{{execute}}
