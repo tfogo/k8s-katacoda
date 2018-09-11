@@ -15,6 +15,10 @@
 				"title": "Requesting Resources",
 				"text": "step2-a.md"
 			},
+			{
+				"title": "Liveness Probes",
+				"text": "step2-b.md"
+			},
       {
 				"title": "Labels and Annotations",
 				"text": "step2-c.md"
@@ -68,6 +72,10 @@
         {
 					"file": "deployment-v2.yml",
 					"target": "~/"
+				},
+				{
+					"file": "pod-with-liveness.yml",
+					"target": "~/"
 				}
       ],
       "node01": [
@@ -97,6 +105,10 @@
 				},
         {
 					"file": "deployment-v2.yml",
+					"target": "~/"
+				},
+				{
+					"file": "pod-with-liveness.yml",
 					"target": "~/"
 				}
       ]
