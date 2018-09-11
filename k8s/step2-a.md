@@ -6,3 +6,8 @@ Here we request a minimum of half a CPU core and 128MB of RAM. We also set an up
 
 `kubectl apply -f pod-with-resources.yml`{{execute}}
 
+## Deleting Pods
+
+You can delete resources with the `kubectl delete` command:
+
+`kubectl delete pod devops-with-resources`{{execute}}

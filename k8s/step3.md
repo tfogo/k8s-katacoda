@@ -8,6 +8,8 @@ This is where the Service object comes in. The Service is a layer in front of a 
 
 You define a `selector`. This is a set of labels. Pods that match this set of labels will be fronted by the Service. You also define a `port` which is the port you need to access on the cluster IP, and a `targetPort`, the port you need to access on the pod.
 
+This is a case of Kubernetes objects being _loosely coupled_. A service doesn't own pods. If you delete a service, the pods will remain. This makes it easier to carry out operational tasks such as moving pods to a different service.
+
 Create the service by applying the yaml file:
 
 `kubectl apply -f service.yml`{{execute}}
@@ -40,6 +42,8 @@ You can see in the `Node Port` section the port on any node where the service is
 
 `curl <node-ip>:<node-port>`
 
-## LoadBalancers
+## Load Balancers
 
-Use Ingress for L7 edge LBs
+By using `type: LoadBalancer`, Kubernetes will provision a cloud load balancer and point it to the Pods. This is useful for publishing your service externally.
+
+This won't work in this sandbox, since this sandbox won't provision a load balancer.
