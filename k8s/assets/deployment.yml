@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: devops
-        image: tfogo/devops
+        image: tfogo/devops:v1
         ports:
         - containerPort: 8080
           name: http

@@ -4,7 +4,7 @@ metadata:
   name: devops-with-resources
 spec:
   containers:
-    - image: tfogo/devops
+    - image: tfogo/devops:v1
       name: devops
       ports:
         - containerPort: 8080

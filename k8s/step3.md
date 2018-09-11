@@ -20,6 +20,6 @@ You can see the services here:
 
 Notice that we have two services. One is the one we just made, and one is the service that fronts the kube-apiserver.
 
-The "INTERNAL_IP" is the Cluster IP that we can use to access this service.
+We can use the Cluster IP to access this service.
 
 `curl <cluster-ip>`
