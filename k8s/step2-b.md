@@ -12,3 +12,10 @@ Take a look at `pod-with-labels.yml`:
 
 We add a couple of labels and an annotation to the Pod.
 
+You can schedule this pod by running:
+
+`kubectl apply -f pod-with-labels.yml`{{execute}}
+
+And you can view this new pod (with its labels) by running:
+
+`kubectl get pods --show-labels`{{execute}}

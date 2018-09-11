@@ -6,6 +6,14 @@ Here we request a minimum of half a CPU core and 128MB of RAM. We also set an up
 
 `kubectl apply -f pod-with-resources.yml`{{execute}}
 
+You can see the new pod by listing all pods:
+
+`kubectl get pods`{{execute}}
+
+You can see more information about the new pod by running:
+
+`kubectl describe pod devops-with-resources`{{execute}}
+
 ## Deleting Pods
 
 You can delete resources with the `kubectl delete` command:
