@@ -20,13 +20,17 @@
 				"text": "step2-c.md"
 			},
 			{
+				"title": "Deployments",
+				"text": "step4.md"
+			},
+			{
 				"title": "Services",
 				"text": "step3.md"
 			},
-			{
-				"title": "Deployments",
-				"text": "step4.md"
-			}
+      {
+        "title": "Node Ports and Load Balancers",
+        "text": step3-a.md"
+      }
     ],
     "intro": {
       "text": "intro.md",

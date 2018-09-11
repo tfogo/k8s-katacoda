@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: devops
   labels:
-    app: devops-app
+    app: devops
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: devops-app
+      app: devops
   template:
     metadata:
       labels:
-        app: devops-app
+        app: devops
     spec:
       containers:
       - name: devops

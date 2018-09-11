@@ -20,5 +20,9 @@ We can see detailed information about a specific resource by using `kubectl desc
 
 The pattern here is `kubectl describe <resource-type> <resource-name>`. Here we see detailed information about the pod: Where it's scheduled, its IP, its status, events in its history, etc. Let's try curling its IP address at port 8080. You should see it output "Smooth DevOps".
 
+You can also easily get the IP address from:
+
+`kubectl get pod devops -o wide`{{execute}}
+
 Notice how the Pod IP is accessible from any node in the cluster!
 

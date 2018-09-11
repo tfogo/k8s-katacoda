@@ -4,7 +4,7 @@ Now you know how to deploy single Pods, but in the real world you want to deploy
 
 Let's look at the definition of a deployment:
 
-`cat deployment.yml`
+`cat deployment.yml`{{execute}}
 
 Here in the spec you'll notice we set `replicas: 3` which will tell Kubernetes we want to maintain 3 replicas of this Pod. Let's apply this resource:
 
