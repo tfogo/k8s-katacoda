@@ -8,8 +8,15 @@ If you're unsure about the difference between labels and annotations. Labels are
 
 Take a look at `pod-with-labels.yml`:
 
-`cat pod-with-labels.yml`{{execute}}
+`cat pod-with-labels`{{execute}}
 
 We add a couple of labels and an annotation to the Pod.
 
+You can schedule this pod by running:
+
 `kubectl apply -f pod-with-labels.yml`{{execute}}
+
+And you can view this new pod (with its labels) by running:
+
+`kubectl get pods --show-labels`{{execute}}
+

@@ -1,6 +1,6 @@
 Now you know how to deploy single Pods, but in the real world you want to deploy a set of Pods and have an easy way to scale and update that set. This is where the Deployment resource comes in.
 
-`watch kubectl get pods`{{execute HOST2}}
+`watch kubectl get pods -o wide`{{execute HOST2}}
 
 Let's look at the definition of a deployment:
 
@@ -21,6 +21,8 @@ Let's update the version of the container we're deploying to `tfogo/devops:v2`:
 You can check the status of a deployment with this command:
 
 `kubectl rollout status deployment devops`{{execute}}
+
+Now let's check what version 2 of the pod does. Let's find an IP of a pod and curl it on port 8080.
 
 You can see the history of rollouts too:
 
