@@ -8,7 +8,7 @@ If you're unsure about the difference between labels and annotations. Labels are
 
 Take a look at `pod-with-labels.yml`:
 
-`cat pod-with-labels`{{execute}}
+`cat pod-with-labels.yml`{{execute}}
 
 We add a couple of labels and an annotation to the Pod.
 
@@ -20,3 +20,6 @@ And you can view this new pod (with its labels) by running:
 
 `kubectl get pods --show-labels`{{execute}}
 
+And delete the pod by running:
+
+`kubectl delete pod pod-with-labels`{{execute}}
