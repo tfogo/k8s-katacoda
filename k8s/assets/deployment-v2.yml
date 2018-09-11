@@ -20,6 +20,6 @@ spec:
       - name: devops
         image: tfogo/devops:v2
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           name: http
           protocol: TCP
