@@ -12,6 +12,14 @@
 				"text": "step2.md"
 			},
 			{
+				"title": "Requesting Resources",
+				"text": "step2-a.md"
+			},
+      {
+				"title": "Labels and Annotations",
+				"text": "step2-c.md"
+			},
+			{
 				"title": "Services",
 				"text": "step3.md"
 			},

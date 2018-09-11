@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: devops-with-labels
+  name: devops
   labels:
     env: prod
-    app: devops-app
+    app: devops
   annotations:
     git-info: "commit 93c34fb33f2398cf3308bf42ad7ef0df33dc86d8 Author: Tim Fogarty <tim@tfogo.com> Date: Tue Aug 28 17:42:14 2018 -0700"
 spec:
@@ -12,7 +12,7 @@ spec:
     - image: tfogo/devops
       name: devops
       ports:
-        - containerPort: 80
+        - containerPort: 8080
           name: http
           protocol: TCP
       resources:
