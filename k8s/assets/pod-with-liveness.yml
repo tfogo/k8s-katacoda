@@ -10,7 +10,7 @@ spec:
         - containerPort: 8080
           name: http
           protocol: TCP
-			livenessProbe:
+      livenessProbe:
         httpGet:
           path: /healthz
           port: 80
